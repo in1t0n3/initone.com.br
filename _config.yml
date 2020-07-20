@@ -1,0 +1,31 @@
+title: 'InitOne'
+email: initone2020@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+socialGithub: https://github.com/in1t0n3
+socialTelegram: https://t.me/in1t0n3
+socialInstagram: https://www.instagram.com/in1t0n3/
+
+
+
+baseurl: "https://initone.com.br/" #substituir, quando online, pelo initone.com.br
+url: ""
+
+
+
+
+permalink: /:title/
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+
+include:
+ - icons
+ - perfil
+  

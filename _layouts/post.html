@@ -1,0 +1,85 @@
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- o que fica entre o cabeçalho e o rodaPe- -->
+    <div class="container-md">
+        <div id="sessao" class="row">
+
+            <!-- Titulo -->
+            <article id="conteudo-box" class="col-lg-8">
+                <header id="postHeader" class="estilizarLink">
+                    <h1 id="postHeader-titulo">{{ page.title }}</h1>
+                    <p id="postHeader-meta">
+                        <time datetime="{{ page.date | date: Y-m-d }}">{{ page.date | date_to_long_string }}</time>
+                        <cite aria-label="autor">{{ page.author }}</cite>
+                    </p>
+
+                    <p id="postHeader-lide">{{ page.lide }}</p>
+                    <hr />
+                </header>
+
+                <div id="tabelaDeConteudo-box-corpo"></div>
+
+                <!-- conteudo -->
+                <main id="conteudo" class="estilizarLink">
+                    {{ content }}
+                </main>
+
+                <!-- <section id="paginacao">
+                    <div id="paginacao-p">
+                        <a href="#">
+                            <small>Previous</small>
+                            <span>
+                                <svg role="img" class="bi bi-chevron-double-left" width="1em" height="1em"
+                                    viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                                    <path fill-rule="evenodd"
+                                        d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                                </svg>
+                            </span>
+                            <strong>Posto mais antigo, anterior</strong>
+                        </a>
+                    </div>
+
+                    <div id="paginacao-n">
+                        <a href="#">
+                            <small>Next</small>
+                            <span>
+                                <svg role="img" class="bi bi-chevron-double-right" width="1em" height="1em"
+                                    viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                    <path fill-rule="evenodd"
+                                        d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </span>
+                            <strong>Posto mais novo, posterios</strong>
+                        </a>
+                    </div>
+                </section> -->
+            </article>
+
+            <section id="" class="col-lg-3 offset-lg-1">
+                <!-- card de perfil -->
+                <div id="postCardPerfil"></div>
+
+                <!-- Índice / tabelaDeConteudo -->
+                <div id="tabelaDeConteudo-box-coluna"></div>
+            </section>
+        </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% include footer_CardPerfil.html %}
+    
+    {% include footer_indice.html %}
+
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+<script>
+    const sobreCardPerfilTime = document.querySelector('#sobreTime .sobreCardPerfil')
+    const sobreCardPerfilConvidados = document.querySelector('#sobreConvidados .sobreCardPerfil')
+
+    for (let i = 0; i < perfilDataLista.length; i++) {
+        const autorID = perfilDataLista[i];
+        const objPerfil = perfilDatas[autorID]
+        
+        getCardPerfil(objPerfil, sobreCardPerfilTime)
+
+    }
+
+    for (let i = 0; i < perfilDataConvidados.length; i++) {
+        const autorID = perfilDataConvidados[i];
+        const objPerfil = perfilDatas[autorID]
+        
+        getCardPerfil(objPerfil, sobreCardPerfilConvidados)
+
+    }
+
+</script>

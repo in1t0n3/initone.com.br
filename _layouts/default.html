@@ -1,0 +1,36 @@
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- o que fica entre o cabeçalho e o roda-pe -->
+    <div class="container-md">
+        <div class="row">
+            <section class="col-lg-8 estilizarLink" role="feed">
+
+                <!-- inicio do Card 1 -->
+                {% for post in site.posts %}
+                <!-- fim do Card 1 -->
+
+                <article class="postCard-box">
+                    <h2 class="postCard-titulo"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <p class="postCard-meta">
+                        <time datetime="{{ post.date | date: Y-m-d }}">{{ post.date | date_to_long_string }}</time>
+                        <cite class="autor">{{ post.author }}</cite>
+                    </p>
+                    <p class="postCard-resumo">{{ post.lide }}</p>
+                </article>
+
+                {% endfor %}
+
+            </section>
+        </div>
+    </div>
+    
+    {% include footer.html %}
+
+
+</body>
+
+</html>

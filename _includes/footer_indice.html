@@ -1,0 +1,34 @@
+<script>
+    /*
+    ==========================================
+        criar o indice - tabela de conteudo
+    ==========================================
+    */
+
+    // pegando o tamanho para referencias:
+    const LarguraJanela = window.innerWidth
+    const AlturaJanela = window.innerHeight
+    const AlturaCardPerfil = document.getElementById('postCardPerfil').offsetHeight
+    const AlturaConteudo = document.getElementById('conteudo').offsetHeight
+
+    if (LarguraJanela >= 992) {
+
+        getBoxNoDOM = document.getElementById('tabelaDeConteudo-box-coluna')
+        getTabelaBox(getBoxNoDOM)
+
+        // deixando aberto
+        if (AlturaConteudo > AlturaJanela + AlturaCardPerfil) {
+            document.getElementById('tabelaDeConteudo').setAttribute('open', 'true')
+        }
+    } else {
+        getBoxNoDOM = document.getElementById('tabelaDeConteudo-box-corpo')
+        getTabelaBox(getBoxNoDOM)
+    }
+
+    // criando a tabelaDeConteudo (#indice)
+    const tegsDosTitulos = ['#conteudo h1', '#conteudo h2', '#conteudo h3', '#conteudo h4', '#conteudo h5',
+        '#conteudo h6'
+    ]
+    const localDaTAbelaNoDOM = document.getElementById('tabelaDeConteudo-lista')
+    getTabela(getTitulos(tegsDosTitulos), localDaTAbelaNoDOM)
+</script>

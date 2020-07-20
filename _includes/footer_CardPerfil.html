@@ -1,0 +1,14 @@
+<script>
+    /*
+    =====================================
+        criar o CardPerfil do escritor
+    =====================================
+    */
+
+    const autorNome = document.querySelector('#postHeader-meta > cite').innerText
+    const autorID = 'ni_' + (autorNome.replace(/\W/g, '_'))
+    const objPerfil = perfilDatas[autorID]
+    const CardPerfilNoDOM = document.getElementById('postCardPerfil')
+
+    getCardPerfil(objPerfil, CardPerfilNoDOM)
+</script>

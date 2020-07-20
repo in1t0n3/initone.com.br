@@ -1,0 +1,38 @@
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- o que fica entre o cabeçalho e o rodaPe- -->
+    <div class="container-md">
+        <div id="sessao" class="row">
+
+            <!-- Sobre txt -->
+            <section id="sobreTxt" class="estilizarLink">
+                {{ content }}
+            </section>
+        </div>
+
+        <div class="row">
+            <section id="sobreTime">
+                <h2>Time</h2>
+                <div class="sobreCardPerfil"></div>
+            </section>
+        </div>
+
+        <div class="row">
+            <section id="sobreConvidados">
+                <h2>Convidados</h2>
+                <div class="sobreCardPerfil"></div>
+            </section>
+        </div>
+    </div>
+
+    {% include footer.html %}
+    {% include footer_CardPerfil.html %}
+    {% include footer_sobre.html %}
+
+</body>
+
+</html>

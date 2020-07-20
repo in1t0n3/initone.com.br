@@ -1,0 +1,561 @@
+/* adicionando as novas fontes */
+/* Zilla Slab >> Medium 500, Medium 500 italic */
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,500;1,500&display=swap');
+
+/* Ubuntu >> Light 300,  */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Zilla Slab';
+    font-weight: 500;
+    color: rgb(68, 68, 68);
+    display: inline-flex;
+    padding-top: .5em;
+    margin-top: .5em;
+}
+
+/* adicionando o # antes do titulo */
+h1:not(.InitOne)::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+    content: "#";
+    font-size: 4em;
+    position: absolute;
+    margin-top: -0.55em;
+    margin-left: -0.25em;
+    color: inherit;
+    opacity: .15;
+    z-index: -50;
+}
+
+.InitOne {
+    font-family: 'Ubuntu';
+    letter-spacing: .3em;
+    font-weight: 300;
+    color: rgb(33, 37, 41);
+    position: relative;
+    text-decoration: none;
+}
+
+.InitOne:hover {
+    color: rgb(33, 37, 41);
+}
+
+.h-InitOne{
+    font-size: calc(1.5rem + 4vw);
+}
+
+.f-InitOne{
+    font-size: 2rem;
+}
+
+
+.InitOne:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(33, 37, 41);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.InitOne:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+/*
+*   tratamento para os link
+*/
+.estilizarLink a {
+    display: inline;
+    position: relative;
+    color: inherit;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(68, 68, 68);
+    text-decoration-style: solid;
+    text-decoration-thickness: 0.1em;
+    cursor: pointer;
+}
+
+.estilizarLink a:visited {
+    text-decoration-color: rgb(70, 70, 140);
+}
+
+.estilizarLink a:active {
+    opacity: .7;
+    transition: color 0s linear 0s;
+}
+
+/* efeito da mudansa de cor do txt e sublinhado */
+.estilizarLink a:hover {
+    color: rgb(6, 70, 167);
+    text-decoration-color: rgb(6, 70, 167);
+    transition: color 0.5s ease-in 0s;
+}
+
+/* efeito de marca texto */
+.estilizarLink a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: .3em;
+    bottom: .15em;
+    left: 0;
+    margin: -0.05rem 0;
+    background-color: rgba(5, 70, 150, 0.2);
+    visibility: hidden;
+}
+
+.estilizarLink a:hover::before {
+    visibility: visible;
+    width: 100%;
+    transition: width 0.3s ease-out 0s;
+}
+
+.estilizarLink a[href^="http"]:hover::before {
+    width: calc(100% - 1.3rem)
+}
+
+/* adicionando o icone que informa que o link é externo */
+.estilizarLink a[href^="http"]::after {
+    display: inline-block;
+    content: url('icons/box-arrow-up-right.svg');
+    padding: 0 0.2rem 0 0.1rem;
+}
+
+
+/*
+*   alterando qustoes que intefere em partes do site
+*/
+
+/* personalizando o cabeçalho */
+.fundo-neutro {
+    background-color: rgb(236, 238, 239);
+}
+
+#mobileNavbarBox>nav {
+    background-color: rgb(236, 238, 239);
+}
+
+#mobileNavbar{
+    padding: 0 1.5rem;
+    padding-top: 1rem;
+}
+
+#mobileNavbar li {
+    margin: .5rem;
+}
+
+/* personalizando o feed e o postCard */
+
+/* adicionando a ultima margem no postCard do feed */
+#feed .postCard-box:last-of-type {
+    margin-bottom: 3rem;
+}
+
+/* adicionando os icones, o calendario e o autor, respectivamente */
+.postCard-meta time::before,
+#postHeader-meta time::before {
+    content: url('icons/calendar3.svg');
+    padding: 0 0.2rem 0 0.1rem;
+}
+
+.postCard-meta cite::before,
+#postHeader-meta cite::before {
+    content: url('icons/person-circle.svg');
+    padding: 0 0.2rem 0 1rem;
+}
+
+#postHeader-lide {
+    font-family: Ubuntu;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+#conteudo{
+    margin-bottom: 4rem;
+}
+
+/* ------------------------------------- */
+
+#tabelaDeConteudo-lista {
+    font-size: .875rem;
+}
+
+#tabelaDeConteudo-lista ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+#tabelaDeConteudo-lista ul ul {
+    padding-left: 1rem;
+    margin-top: .25rem;
+}
+
+#tabelaDeConteudo-lista li {
+    margin-bottom: .25rem;
+}
+
+#tabelaDeConteudo-lista li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#tabelaDeConteudo-lista li a:hover {
+    text-decoration: underline;
+}
+
+/* ------------------------------------- */
+
+.cardPerfil {
+    text-align: center;
+}
+
+.cardPerfil-img {
+    border-radius: 100%;
+    margin: 1rem;
+    width: calc(100% - 2rem);
+    max-width: 10rem;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(100, 149, 237);
+    background-color: #212c42;;
+}
+
+.cardPerfil-autor {
+    display: block;
+    font-family: 'Zilla Slab';
+    font-weight: 500;
+    color: rgb(68, 68, 68);
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+}
+
+.cardPerfil-bio {
+    font-family: Ubuntu;
+    font-weight: 300;
+}
+
+.cardPerfil-social{
+    position: relative;
+    list-style:none;
+    padding-left: 0;
+    z-index: 5;
+}
+
+.cardPerfil-social, .cardPerfil-social > li{
+    display: inline;
+}
+
+.cardPerfil-social > li > a {
+    font-size: 1.5rem;
+    margin: 0 0.1em;
+    padding: 0.25em;
+    color: rgb(68, 68, 68);
+    display: inline-flex;
+    border: #848484 solid .15rem;
+    border-radius: 0.5rem;
+}
+
+.cardPerfil-social > li > a:hover{
+    background-color: rgba(68, 68, 68);
+    color: rgb(255, 255, 255);
+    border: #848484 solid .15rem;
+}
+
+/* somente para a pagina post */
+
+#postCardPerfil > .cardPerfil {
+    margin: 1.5rem 0 3rem 0;
+}
+
+@media (min-width: 501px) and (max-width: 991px) {
+    #postCardPerfil > .cardPerfil {
+        display: grid;
+        grid-auto-flow: dense;
+        align-content: center;
+        grid-template-columns: 175px 1fr;
+        grid-template-areas:
+        "g-img ."
+        "g-img g-autor"
+        "g-img g-bio"
+        "g-img g-social"
+        "g-img ."
+    }
+
+    #postCardPerfil > .cardPerfil-img {
+        grid-area: g-img;
+    }
+
+    #postCardPerfil > .cardPerfil-autor {
+        grid-area: g-autor;
+    }
+
+    #postCardPerfil > .cardPerfil-bio {
+        grid-area: g-bio;
+    }
+
+    #postCardPerfil > .cardPerfil-social {
+        grid-area: g-social;
+        justify-self: center;
+    }
+}
+
+@media (max-width: 500px) {
+    #postCardPerfil > .cardPerfil-img {
+        max-width: 150px;
+    }
+}
+
+/* somente para a pagina sobre */
+
+.sobreCardPerfil{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sobreCardPerfil > .cardPerfil {
+    display: block;
+    position: relative;
+    max-width: 275px;
+    margin: 1rem 1rem 1rem 0;
+    padding: .5rem;
+}
+
+.sobreCardPerfil > .cardPerfil::before,
+.sobreCardPerfil > .cardPerfil::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.sobreCardPerfil {
+    --bordaCardSocial: .15rem solid #6c757d;
+  }
+
+.sobreCardPerfil > .cardPerfil::before {
+    border-left: var(--bordaCardSocial);
+    border-right: var(--bordaCardSocial);
+    transform: scaleY(0);
+}
+
+.sobreCardPerfil > .cardPerfil::after {
+    border-top: var(--bordaCardSocial);
+    border-bottom: var(--bordaCardSocial);
+    transform: scaleX(0);
+}
+
+.sobreCardPerfil > .cardPerfil:hover {
+    background-color: #eee;
+    transition: background-color 0.3s ease-in-out 0.3s;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    transition: box-shadow 0.3s ease-in-out 0.3s;
+
+}
+
+.sobreCardPerfil > .cardPerfil:hover::before {
+    transform: scaleX(1);
+}
+
+.sobreCardPerfil > .cardPerfil:hover::after {
+    transform: scaleY(1);
+}
+
+
+/* ------------------------------------------ */
+
+@media (min-width:992px) {
+    #tabelaDeConteudo-box-coluna {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 1.5rem;
+        /* margin-bottom: 3rem; */
+        right: 0;
+    }
+
+    #tabelaDeConteudo-lista{
+        height: calc(100vh - 7rem);
+        overflow-y: auto;
+    }
+
+    #tabelaDeConteudo-box-corpo {
+        display: none;
+    }
+}
+
+@media (max-width:991px) {
+    #tabelaDeConteudo-box-coluna {
+        display: none;
+    }
+}
+
+
+/* ------------------------------------------ */
+
+#paginacao {
+    display: table;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+#paginacao-p, #paginacao-n {
+    position: relative;
+    margin: 1rem 2rem;
+}
+
+#paginacao-p {
+    text-align: left;
+    float: left;
+}
+
+#paginacao-n {
+    text-align: right;
+    float: right;
+}
+
+#paginacao small{
+    display: block;
+    font-size: 1em;
+    color: rgb(68, 68, 68);
+    font-variant:small-caps;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-decoration-line: none;
+}
+
+#paginacao span {
+    position: absolute;
+    font-size: 4em;
+    position: absolute;
+    color: inherit;
+    opacity: .15;
+    z-index: -50;
+}
+
+#paginacao-p span {
+    left: -2.5rem;
+    margin-top: -0.8em;
+    margin-left: 0.15em;
+}
+
+#paginacao-n span {
+    right: -2.5rem;
+    margin-top: -0.8em;
+    margin-right: 0.15em;
+}
+
+#paginacao a{
+    display: block;
+    color: rgb(68, 68, 68);
+    text-decoration-line: none;
+}
+
+#paginacao strong {
+    font-family: 'Zilla Slab';
+    font-weight: 500;
+    color: rgb(68, 68, 68);
+    font-size: 1.25em;
+    text-decoration-line: none;
+}
+
+#paginacao a:hover strong{
+    color: rgb(6, 70, 167);
+    text-decoration-line: underline;
+    text-decoration-color: rgba(40, 50, 100, 0.7);
+}
+
+/* animação do SVG <span>*/
+#paginacao a:hover span {
+    color: rgb(6, 70, 167);
+    opacity: 0.3;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#paginacao a span {
+    transition: all 0.3s ease-in 0s;
+}
+
+
+/* ------------------------------------------ */
+
+#rodaPe-box{
+    background-color: #eceeef;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+#rodaPe{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#rodaPe-marca{
+    text-align: left;
+    float: left;
+}
+
+#rodaPe-social {
+    text-align: right;
+    align-self: center;
+    flex-grow: 1;
+    margin-top: 1rem;
+}
+
+#rodaPe-social, #rodaPe-social li {
+    display: inline;
+}
+
+#rodaPe-social > li > a {
+    font-size: 1.5rem;
+    margin: 0 0.1em;
+    padding: 0.25em;
+    color: rgb(68, 68, 68);
+    display: inline-flex;
+}
+
+#rodaPe-social > li > a:hover{
+    color: #024dbc;
+}
+
+/* ------------------------------------------ */
+
+#sobreTxt{
+    position: relative;
+    width: 100%;
+}
+
+#sobreTxt > p{
+    max-width: 600px;
+    font-size: 1.15rem;
+}
+
+
+
