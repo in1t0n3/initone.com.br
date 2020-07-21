@@ -74,7 +74,7 @@ const perfilDatas = {
     ni_Alisson_Chataubriand: {
         autor: 'Alisson Chataubriand',
         img: '/perfil/alisson_foto.png',
-        bio: '<pequeno editado livrimente texto de apresentação bla bla bla bla bla bla bla bla blb abasdaldamdlasdla>',
+        bio: 'Iniciante na área de tecnologia da informação, aficionado em Pentest e em segurança da informação, entusiata de programação e aluno de eletronica',
         social: [{
                 id: 'id_instagram',
                 link: 'https://instagram.com/chatau.briand'
@@ -92,7 +92,7 @@ const perfilDatas = {
     ni_Wenderson_Santos: {
         autor: 'Wenderson Santos',
         img: '/perfil/wenderson_foto.png',
-        bio: '<pequeno editado livrimente texto de apresentação bla bla bla bla bla bla bla bla blb abasdaldamdlasdla>',
+        bio: 'Iniciante em programação e Linux, entusiasta em Eletrônica e amante da cultura CyberPunk e SteamPunk',
         social: [{
                 id: 'id_instagram',
                 link: 'https://instagram.com/gensaii.k'
