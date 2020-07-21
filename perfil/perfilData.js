@@ -74,7 +74,7 @@ const perfilDatas = {
     ni_Alisson_Chataubriand: {
         autor: 'Alisson Chataubriand',
         img: '/perfil/alisson_foto.png',
-        bio: 'Iniciante na área de tecnologia da informação, aficionado em Pentest e em segurança da informação, entusiata de programação e aluno de eletronica',
+        bio: 'Iniciante na área de tecnologia da informação, aficionado em Pentest e em segurança da informação, entusiasta de programação e aluno de eletronica',
         social: [{
                 id: 'id_instagram',
                 link: 'https://instagram.com/chatau.briand'
