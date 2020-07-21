@@ -56,7 +56,7 @@ const perfilDatas = {
     ni_Antony_Leite: {
         autor: 'Antony Leite',
         img: '/perfil/antony_foto.gif',
-        bio: '<pequeno editado livrimente texto de apresentação bla bla bla bla bla bla bla bla blb abasdaldamdlasdla>',
+        bio: 'Amante em segurança da informação voltada para RedTeam, novato em programação e estudante de eletrônica.',
         social: [{
                 id: 'id_instagram',
                 link: 'https://instagram.com/antony_msl'
@@ -110,7 +110,7 @@ const perfilDatas = {
     ni_Vin_cius_Magno: {
         autor: 'Vinícius Magno',
         img: '/perfil/viniciuos_foto.png',
-        bio: '<pequeno editado livrimente texto de apresentação bla bla bla bla bla bla bla bla blb abasdaldamdlasdla>',
+        bio: 'Iniciante na área de tecnologia em geral, gosto de programar e estudar assuntos sobre a área.',
         social: [{
                 id: 'id_instagram',
                 link: 'https://instagram.com/magnovinicius204'
