@@ -18,9 +18,13 @@ livros que eu tenho lido sobre essa área que tanto amammos que é a segunraça 
 de livros que eu tenho lido ou irei ler e que eu creio que possam lhe ajudar assim como tem me ajudado 
 
 -Introdução ao pentest (Daniel Moreno)
+
 -Black hat python (Justin Seitz)
+
 -python para pentest (Daniel Moreno)
+
 -pentest em aplicação web (Daniel Moreno)
+
 -pentest em redes sem fio (Daniel Moreno)
 
 
