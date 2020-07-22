@@ -56,7 +56,7 @@ const perfilDatas = {
     ni_Antony_Leite: {
         autor: 'Antony Leite',
         img: '/perfil/antony_foto.gif',
-        bio: 'Amante de segurança da informação voltada para RedTeam, novato em programação e estudante de eletrônica.',
+        bio: 'Amante de segurança da informação, novato em programação e estudante de eletrônica.',
         social: [{
                 id: 'id_instagram',
                 link: 'https://instagram.com/antony_msl'
