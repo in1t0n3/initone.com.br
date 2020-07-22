@@ -558,13 +558,3 @@ h6::before {
 }
 
 
-
-table {
-    margin-bottom: 1.5rem;
-}
-
-td {
-    border-color: #6c757d;
-    border-style: solid;
-    padding: 5px;
-}
