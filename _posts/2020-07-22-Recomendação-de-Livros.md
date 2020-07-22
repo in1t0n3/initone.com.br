@@ -2,7 +2,7 @@
 layout: post
 title: "#1postperday!"
 author: 'Alisson Chataubriand'
-date: 2020-22-07 13:11:00 -3
+date: 2020-07-22 13:11:00 -0300
 lide: "Alguns livros que eu estou lendo e que gostaria de compartilhar!"
 image: "/assets/img/one-post-per-day/imagem-principal.png"
 main-class: 'misc'
