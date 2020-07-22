@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#1postperday!"
+title: "#Recomendações de livros"
 author: 'Alisson Chataubriand'
 date: 2020-07-22 13:11:00 -0300
 lide: "Alguns livros que eu estou lendo e que gostaria de compartilhar!"
