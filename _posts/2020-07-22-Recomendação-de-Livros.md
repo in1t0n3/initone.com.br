@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#Recomendações de livros"
+title: "Recomendações de livros"
 author: 'Alisson Chataubriand'
 date: 2020-07-22 13:11:00 -0300
 lide: "Alguns livros que eu estou lendo e que gostaria de compartilhar!"
@@ -17,15 +17,15 @@ Olá suposto leitar que provavelmente não ira ler tendo em vista que isso tudo 
 livros que eu tenho lido sobre essa área que tanto amammos que é a segunraça da informação, trago uma pequena lista 
 de livros que eu tenho lido ou irei ler e que eu creio que possam lhe ajudar assim como tem me ajudado 
 
--Introdução ao pentest (Daniel Moreno)
+-Introdução ao pentest (Daniel Moreno) 
 
--Black hat python (Justin Seitz)
+-Black hat python (Justin Seitz) 
 
--python para pentest (Daniel Moreno)
+-python para pentest (Daniel Moreno) 
 
--pentest em aplicação web (Daniel Moreno)
+-pentest em aplicação web (Daniel Moreno) 
 
--pentest em redes sem fio (Daniel Moreno)
+-pentest em redes sem fio (Daniel Moreno) 
 
 
 ### Observação
