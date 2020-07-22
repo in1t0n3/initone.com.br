@@ -56,7 +56,7 @@ const perfilDatas = {
     ni_Antony_Leite: {
         autor: 'Antony Leite',
         img: '/perfil/antony_foto.gif',
-        bio: 'Amante de segurança da informação voltada para RedTeam, novato em programação e estudante de eletrônica.                                          ',
+        bio: 'Amante de segurança da informação voltada para RedTeam, novato em programação e estudante de eletrônica.',
         social: [{
                 id: 'id_instagram',
                 link: 'https://instagram.com/antony_msl'
@@ -74,7 +74,7 @@ const perfilDatas = {
     ni_Alisson_Chataubriand: {
         autor: 'Alisson Chataubriand',
         img: '/perfil/alisson_foto.png',
-        bio: 'Iniciante na área de tecnologia da informação, aficionado em Pentest e em segurança da informação, entusiasta de programação e aluno de eletronica',
+        bio: 'Iniciante na área de tecnologia da informação, aficionado em Pentest e em segurança da informação, entusiasta de programação e aluno de eletronica.',
         social: [{
                 id: 'id_instagram',
                 link: 'https://instagram.com/chatau.briand'
@@ -92,7 +92,7 @@ const perfilDatas = {
     ni_Wenderson_Santos: {
         autor: 'Wenderson Santos',
         img: '/perfil/wenderson_foto.png',
-        bio: 'Iniciante em programação e Linux, entusiasta em Eletrônica e amante da cultura CyberPunk e SteamPunk.                                             ',
+        bio: 'Iniciante em programação e Linux, entusiasta em Eletrônica e amante da cultura CyberPunk e SteamPunk.',
         social: [{
                 id: 'id_instagram',
                 link: 'https://instagram.com/gensaii.k'
@@ -110,7 +110,7 @@ const perfilDatas = {
     ni_Vin_cius_Magno: {
         autor: 'Vinícius Magno',
         img: '/perfil/viniciuos_foto.png',
-        bio: 'Iniciante na área de tecnologia em geral, gosto de programar e estudar assuntos sobre a área.                                                     ',
+        bio: 'Iniciante na área de tecnologia em geral, gosto de programar e estudar assuntos sobre a área.',
         social: [{
                 id: 'id_instagram',
                 link: 'https://instagram.com/magnovinicius204'
