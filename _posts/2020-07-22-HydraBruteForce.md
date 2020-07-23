@@ -6,6 +6,10 @@ date: 2020-07-22 12:00:00 -0300
 lide: Hydra. Uma ferramenta de cracker de login rápida, estável e eficiente que descobre senhas através do método de Brute Force utilizando dicionários(wordlists), nesse poste você ira ter uma breve introdução a essa excelente ferramenta.
 ---
 
+	URLs (diretórios e arquivos) em sites.
+	Subdomínios DNS (com suporte a caracteres curinga).
+
+
 ## Hydra Brute Force.
 
 Basicamente o Hydra utiliza o método de brute force (tentativa e erro) para descobrir senhas. Ela faz uso de dicionários que contem diversas variedades e combinações de senhas e de logins. Essa ferramenta tem suporte para diversos protocolos, tais como FTP, SMB, SSH, MySQL, formulários web entre outros. Nesse breve introdução, vamos abordar o uso do Hydra nos serviços de FTP, SMB e SSH e formulário web.
