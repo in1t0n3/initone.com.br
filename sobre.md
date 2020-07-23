@@ -6,15 +6,6 @@ layout: sobre
 
 A InitOne, fundada no início de 2020, é o resultado da troca de ideias entre um grupo de amigos que tem em comum o amor e a vontade de aprender cada vez mais sobre a segurança da informação. Com os amadurecimentos de nossas ideias, e ciente da falta desse tipo de conteúdo em língua portuguesa, resolvemos compartilhar o nosso pequeno conhecimento para toda a vastidão da internet.
 
-<figure class="text-right">
-    <blockquote class="blockquote">
-        <p>“é pouco, mas é um trabalho honesto”.</p>
-    </blockquote>
-    <figcaption class="blockquote-footer">
-        <cite title="Source Title">meme</cite>
-    </figcaption>
-</figure>
-
 Nós temos como projeto sempre trazer para você, meu caro leitor, um conteúdo atualizado e pertinente, com foco na segurança ofensiva. Aqui você poderá encontrar tutoriais descompromissados ao lado de Write-ups.
 
 
