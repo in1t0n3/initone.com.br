@@ -558,12 +558,3 @@ h6::before {
 }
 
 
-code {
-    font-size: .875em;
-    color: #343a40;
-    word-wrap: break-word;
-    background-color: rgb(210 210 210);
-    padding: .3em;
-    border-radius: 0.3em;
-    letter-spacing: .05em;
-}
