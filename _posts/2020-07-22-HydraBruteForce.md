@@ -6,23 +6,6 @@ date: 2020-07-22 12:00:00 -0300
 lide: Uma pequena introdução a essa excelente ferramenta de Brute Force.
 ---
 
-
-```html
-<!-- Social: Facebook / Open Graph -->
-<meta property="fb:admins" content="id do seu fb insight">
-<meta property="og:url" content="url do seu site">
-<meta property="og:type" content="tipo do link, article, page, etc">
-<meta property="og:title" content="título do site">
-<meta property="og:image" content="imagem do site (LINK ABSOLUTO)">
-<meta property="og:description" content="breve descrição">
-<meta property="og:site_name" content="Nome do site">
-<meta property="article:author" content="fb de quem escreveu">
-<meta property="article:publisher" content="fb de quem publicou">
-<meta property="article:published_time" content="momento de publicação">
-<meta property="article:tag" content="tag1">
-<meta property="article:tag" content="tag2">
-```
-
 ## Hydra Brute Force.
 
 Basicamente o Hydra utiliza o método de brute force (tentativa e erro) para descobrir senhas. Ela faz uso de dicionários que contem diversas variedades e combinações de senhas e de logins. Essa ferramenta tem suporte para diversos protocolos, tais como FTP, SMB, SSH, MySQL, formulários web entre outros. Nesse breve introdução, vamos abordar o uso do Hydra nos serviços de FTP, SMB e SSH e formulário web.
