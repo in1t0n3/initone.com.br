@@ -3,7 +3,7 @@ layout: post
 title: Hydra Brute Force
 author: 'Antony Leite'
 date: 2020-07-22 12:00:00 -0300
-lide: Uma pequena introdução a essa excelente ferramenta de Brute Force.
+lide: Hydra. Uma ferramenta de cracker de login rápida, estável e eficiente que descobre senha através do método de Brute Force utilizando dicionários(wordlists), nesse poste você ira ter uma breve introdução a essa excelente ferramenta.
 ---
 
 ## Hydra Brute Force.
