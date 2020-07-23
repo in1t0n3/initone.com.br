@@ -4,6 +4,6 @@ layout: sobre
 
 # Sobre
 
-Olá galera, como devem ter notado, foram dois dias seguidos e dois posts e será sempre assim! Eu já vinha com essa ideia na cabeça e quando vi esse [post feito pelo Fernando Daciuk](http://blog.da2k.com.br/2014/12/31/um-post-por-dia/), resolvi que irei tentar seguir isso a risca!
+InitOne foi fundada no inicio de 2020, juntando alguns estudantes do IFB que curtem o assunto segurança da informação dando ênfase para a parte de segurança ofensiva e que gostam de estudar e explorar essa área incrível. No inicio era somente uma ideia de mais um projeto, porém depois de algum tempo esse ideia foi estruturada e levou a formação do time de CTF InitOne.
 
-Mas eu também vi bastante gente falando "Até favoritei seu blog para acompanhar", acho mega legal isso, mas pow, favoritar não vai te avisar se tem post novo ou não, segue no [RSS](https://willianjusten.com.br/sitemap.xml) que é bem mais fácil.
+Esse time tem como objetivo aprender e ensinar fundamentos sobre segurança da informação dando ênfase para a parte de segurança ofensiva e contribuir com o cenário brasileiro de CTF.
