@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gobuster
+title: Writeup Bounty Hacker
 author: 'Antony Leite'
 date: 2020-08-11 12:00:00 -0300
 lide: Nesse post temos uma Writeup da sala Bounty Hacker do TryHackMe, que explora o uso dos serviços FTP, SSH, HTTP, onde é necessário o uso das ferramentas Nmap e Hydra juntamento do método de BruteForce, e também nessa sala utilizamos o tar para efetuar o escalamento de privilégios.
