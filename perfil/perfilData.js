@@ -67,6 +67,10 @@ const perfilDatas = {
             {
                 id: 'id_tryhackme',
                 link: 'https://tryhackme.com/p/G4L1T0'
+            },
+            {
+                id: 'id_hackthebox',
+                link: 'https://www.hackthebox.eu/home/users/profile/332410'
             }
         ],
         skil: ['no futuro eu vejo isso']
