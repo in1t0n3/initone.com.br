@@ -12,8 +12,6 @@ Como essa sala está classificada como fácil no [tryhackme](https://tryhackme.c
 
 O comando que estarei utilizando é **`nmap -sV 10.10.124.175`**
 
-![nmap-sv](https://i.imgur.com/Vzdzp6e.png)
-
 <table class="table">
   <thead>
     <tr>
@@ -28,6 +26,8 @@ O comando que estarei utilizando é **`nmap -sV 10.10.124.175`**
     </tr>
   </tbody>
 </table>
+
+![nmap-sv](https://i.imgur.com/Vzdzp6e.png)
 
 ## Exploração
 
