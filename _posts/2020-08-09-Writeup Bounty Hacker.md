@@ -6,7 +6,7 @@ date: 2020-08-11 12:00:00 -0300
 lide: Nesse post temos uma Writeup da sala Bounty Hacker do TryHackMe, que explora o uso dos serviços FTP, SSH, HTTP, onde é necessário o uso das ferramentas Nmap e Hydra juntamento do método de BruteForce, e também nessa sala utilizamos o tar para efetuar o escalamento de privilégios.
 ---
 
-# Reconhecimento
+## Reconhecimento
 
 Como essa sala está classificada como fácil no [tryhackme](https://tryhackme.com/) estarei utilizando um nmap 'simples', pois acho que ele ira trazer todas as informações que precisamos.
 
@@ -29,7 +29,7 @@ O comando que estarei utilizando é **`nmap -sV 10.10.124.175`**
   </tbody>
 </table>
 
-# Exploração
+## Exploração
 
 Podemos perceber que pela a saído no nmap temos os seguintes serviços:
 
@@ -80,7 +80,7 @@ Agora ele está pedindo a *password* do serviço SSH, que é a mesma *password* 
 
 Parabéns! Agora você dentro do serviço SSH dessa maquina!
 
-# Escalando privilégios
+## Escalando privilégios
 
 Agora, você passando o comando **`ls`** para ver o que tem no diretório atual, você já encontra o *user.txt*!
 
