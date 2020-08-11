@@ -70,11 +70,11 @@ Para utilizarmos o Hydra para fazer BruteForce no serviço SSH utilizamos o coma
 
 ![hydra-bruteforce](https://i.imgur.com/Lg4kxgS.png)
 
-Perfeito! Encontramos o usuário e a senha do SSH! Agora é so fazer o login. Para efetuar o login é só utilizar o comando **`ssh lin@10.10.124.175`**
+Perfeito! Encontramos o usuário e a senha do SSH! Agora é só fazer o login. Para efetuar o login é só utilizar o comando **`ssh lin@10.10.124.175`**
 
 ![ssh-login](https://i.imgur.com/yExFBaZ.png)
 
-Agora ele está pedindo a *password* do serviço SSH, que é a mesma *password* que o Hydra encontrou utilizando o método de BruteForce no serviço SSH.
+Nessa parte ele está pedindo a sua permissão para se conectar no SSH da maquina, basta você responder com *yes* para se conectar. Logo em seguida ele estára pedindo a *password* do serviço SSH, que é a mesma *password* que o Hydra encontrou utilizando o método de BruteForce no serviço SSH.
 
 ![ssh-login-password-correct](https://i.imgur.com/Z74kPkK.png)
 
@@ -90,8 +90,8 @@ Show! Agora você pode rodar o comando **`sudo -l`** para listar os privilégios
 
 ![sudo-l](https://i.imgur.com/EGM6TEp.png)
 
-O resultado desse comando mostra o */bin/tar*, você pode pesqusiar por *tar* no [GTFOBins](https://gtfobins.github.io/).
-Você pesquisando sobre [tar](https://gtfobins.github.io/gtfobins/tar/) no GTFOBins você vai acabar caindo na pagina dele, e é exatamente isso que queremos, pois presisamos saber qual comando a gente vai usar para elevar os nossos privilégios até o root. Você dando uma olhada na pagina do *tar* você vai achando o topico **SUDO** e nela estará o comando **`sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh`** que é o comando que vamos usar para escalar os privilégios, basta você copiar e colar esse comando no terminal do serviço SSH.
+O resultado desse comando mostra o */bin/tar*, você pode pesquisar por *tar* no [GTFOBins](https://gtfobins.github.io/).
+Você pesquisando sobre [tar](https://gtfobins.github.io/gtfobins/tar/) no GTFOBins você vai acabar caindo na pagina dele, e é exatamente isso que queremos, pois precisamos saber qual comando a gente vai usar para elevar os nossos privilégios até o root. Você dando uma olhada na pagina do *tar* você vai achando o tópico **SUDO** e nela estará o comando **`sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh`** que é o comando que vamos usar para escalar os privilégios, basta você copiar e colar esse comando no terminal do serviço SSH.
 
 ![root](https://i.imgur.com/63jLuG3.png)
 
