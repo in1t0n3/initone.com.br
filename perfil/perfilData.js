@@ -94,7 +94,7 @@ const perfilDatas = {
         skil: ['no futuro eu vejo isso']
     },
     ni_Guilherme_Louren_o: {
-        autor: 'Guilherme_Louren_o',
+        autor: 'Guilherme Lourenço',
         img: '/perfil/guilherme_louren_o_foto.jpg',
         bio: '...',
         social: [{
