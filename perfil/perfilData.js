@@ -93,42 +93,6 @@ const perfilDatas = {
         ],
         skil: ['no futuro eu vejo isso']
     },
-    ni_Wenderson_Santos: {
-        autor: 'Wenderson Santos',
-        img: '/perfil/wenderson_foto.png',
-        bio: 'Iniciante em programação e Linux, entusiasta em Eletrônica e amante da cultura CyberPunk e SteamPunk.',
-        social: [{
-                id: 'id_instagram',
-                link: 'https://instagram.com/gensaii.k'
-            }, {
-                id: 'id_gitHub',
-                link: 'https://github.com/kgensai'
-            },
-            {
-                id: 'id_tryhackme',
-                link: 'https://tryhackme.com/p/kgensai'
-            }
-        ],
-        skil: ['no futuro eu vejo isso']
-    },
-    ni_Vin_cius_Magno: {
-        autor: 'Vinícius Magno',
-        img: '/perfil/viniciuos_foto.png',
-        bio: 'Iniciante na área de tecnologia em geral, gosto de programar e estudar assuntos sobre a área.',
-        social: [{
-                id: 'id_instagram',
-                link: 'https://instagram.com/magnovinicius204'
-            }, {
-                id: 'id_gitHub',
-                link: 'https://github.com/'
-            },
-            {
-                id: 'id_tryhackme',
-                link: 'https://tryhackme.com/p/Ma6usVinno'
-            }
-        ],
-        skil: ['no futuro eu vejo isso']
-    },
     ni_Guilherme_Louren_o: {
         autor: 'Guilherme_Louren_o',
         img: '/perfil/guilherme_louren_o_foto.jpg',
