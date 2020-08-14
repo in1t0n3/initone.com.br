@@ -96,7 +96,7 @@ const perfilDatas = {
     ni_Guilherme_Louren_o: {
         autor: 'Guilherme Lourenço',
         img: '/perfil/guilherme_louren_o_foto.jpg',
-        bio: 'Estudante de Defesa Cibernética pela FIAP , possuo 6 anos de experiência na área de Tecnologia da Informação passando por Suporte, Infraestrutura, Desenvolvimento, DevOps e Segurança da Informação, busco sempre aprender cada vez mais e compartilhar o que aprendi durante a minha jornada.',
+        bio: 'Estudante de Defesa Cibernética pela FIAP, entusiasta de forense digital, apaixonado por red team e profissional na área de blue team.',
         social: [{
                 id: 'id_gitHub',
                 link: 'https://github.com/guilhermelourenc'
