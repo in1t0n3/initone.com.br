@@ -48,7 +48,7 @@ observação 2: redes sociais
 
 */
 
-const perfilDataLista = ['ni_Antony_Leite', 'ni_Alisson_Chataubriand', 'ni_Guilherme_Louren_o']
+const perfilDataLista = ['ni_Antony_Leite', 'ni_Alisson_Chataubriand', 'ni_Guilherme_Louren_o', 'ni_Felipe_Brasileiro']
 
 const perfilDataConvidados = []
 
@@ -109,6 +109,24 @@ const perfilDatas = {
                 id: 'id_linkedin',
                 link: 'https://www.linkedin.com/in/guilherme-l-957a0999/'
             }
+        ],
+        skil: ['no futuro eu vejo isso']
+    },
+    ni_Felipe_Brasileiro: {
+        autor: 'Felipe Brasileiro',
+        img: '/perfil/felipe_brasileiro.jpeg',
+        bio: 'Estudante de Engenharia da Computação, apaixonado por segurança ofensiva, especialmente por exploração de binários.',
+        social: [{
+                id: 'id_instagram',
+                link: 'https://www.instagram.com/felipe_brasileiro/'
+            }, {
+                id: 'id_gitHub',
+                link: 'https://github.com/FBrasileiro'
+            },
+            {
+                id: 'id_tryhackme',
+                link: 'https://tryhackme.com/p/R4w2x1BR'
+            },
         ],
         skil: ['no futuro eu vejo isso']
     }
