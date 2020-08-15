@@ -41,7 +41,7 @@ Podemos analisar o FTP dessa máquina, existem vários métodos diferentes que v
 
 ![ftp](https://i.imgur.com/oMxegzT.png)
 
-Logo depois de você obter o acesso ao FTP da máquina, ele ira te pedir um *Name*, basta você colocar como *Name*  **`anonymous`**
+Logo depois de você obter o acesso ao FTP da máquina, ele irá te pedir um *Name*, basta você colocar como *Name*  **`anonymous`**
 
 ![ftp-anonymous](https://i.imgur.com/oIqYwTL.png)
 
