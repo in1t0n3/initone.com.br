@@ -86,12 +86,12 @@ Agora, você passando o comando **`ls`** para ver o que tem no diretório atual,
 
 ![user.txt](https://i.imgur.com/Dv2AIvT.png)
 
-Show! Agora você pode rodar o comando **`sudo -l`** para listar os privilégios do usuário. Você precisa listar os privilégios do usuário para saber qual serviço você pode explorar parar virar root do sistema, pois o objetivo é esse! Você virar root, e pegar a *flag* que está em */root/root.txt*
+Show! Agora você pode rodar o comando **`sudo -l`** para listar os privilégios do usuário. Você precisa listar os privilégios do usuário para saber qual serviço você pode explorar para virar root do sistema, pois o objetivo é esse! Você virar root, e pegar a *flag* que está em */root/root.txt*
 
 ![sudo-l](https://i.imgur.com/EGM6TEp.png)
 
 O resultado desse comando mostra o */bin/tar*, você pode pesquisar por *tar* no [GTFOBins](https://gtfobins.github.io/).
-Você pesquisando sobre [tar](https://gtfobins.github.io/gtfobins/tar/) no GTFOBins você vai acabar caindo na pagina dele, e é exatamente isso que queremos, pois precisamos saber qual comando a gente vai usar para elevar os nossos privilégios até o root. Você dando uma olhada na pagina do *tar* você vai achando o tópico **SUDO** e nela estará o comando **`sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh`** que é o comando que vamos usar para escalar os privilégios, basta você copiar e colar esse comando no terminal do serviço SSH.
+Você pesquisando sobre [tar](https://gtfobins.github.io/gtfobins/tar/) no GTFOBins você vai acabar caindo na página dele, e é exatamente isso que queremos, pois precisamos saber qual comando a gente vai usar para elevar os nossos privilégios até o root. Você dando uma olhada na página do *tar* você vai achando o tópico **SUDO** e nela estará o comando **`sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh`** que é o comando que vamos usar para escalar os privilégios, basta você copiar e colar esse comando no terminal do serviço SSH.
 
 ![root](https://i.imgur.com/63jLuG3.png)
 
