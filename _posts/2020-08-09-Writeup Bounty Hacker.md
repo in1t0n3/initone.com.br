@@ -37,19 +37,19 @@ Podemos perceber que pela a saído no nmap temos os seguintes serviços:
 - SSH
 - HTTP
 
-Podemos analisar o FTP dessa maquina, existe vários métodos diferentes que você pode acessar um serviço de FTP, nessa situação estarei acessando o FTP da maquina pelo o meu terminal. Para isso acontecer estarei usando o comando **`ftp 10.10.124.175`**
+Podemos analisar o FTP dessa máquina, existe vários métodos diferentes que você pode acessar um serviço de FTP, nessa situação estarei acessando o FTP da máquina pelo o meu terminal. Para isso acontecer estarei usando o comando **`ftp 10.10.124.175`**
 
 ![ftp](https://i.imgur.com/oMxegzT.png)
 
-Logo depois de você obter o acesso ao FTP da maquina, ele ira te pedir um *Name*, basta você colocar como *Name*  **`anonymous`**
+Logo depois de você obter o acesso ao FTP da máquina, ele ira te pedir um *Name*, basta você colocar como *Name*  **`anonymous`**
 
 ![ftp-anonymous](https://i.imgur.com/oIqYwTL.png)
 
-Depois de colocar anonymous como *Name* você obteve sucesso ao efetuar login no serviço FTP da maquina. Agora você está dentro do FTP, basta passar um **`ls`** para você obter a visualização dos arquivos que o FTP contém.
+Depois de colocar anonymous como *Name* você obteve sucesso ao efetuar login no serviço FTP da máquina. Agora você está dentro do FTP, basta passar um **`ls`** para você obter a visualização dos arquivos que o FTP contém.
 
 ![ftp-anonymous-ls](https://i.imgur.com/qWuREbW.png)
 
-Podemos perceber que temos dois arquivos no FTP, o *locks.txt* e o *task.txt*. Você pode baixar esses arquivos para sua maquina pessoal para que você possa ler tal arquivo, para você baixar o arquivo faça uso do comando **`get`**, sendo assim, para efetuar o download do arquivo *locks.txt* basta usar o seguinte comando **`get locks.txt`**
+Podemos perceber que temos dois arquivos no FTP, o *locks.txt* e o *task.txt*. Você pode baixar esses arquivos para sua máquina pessoal para que você possa ler tal arquivo, para você baixar o arquivo faça uso do comando **`get`**, sendo assim, para efetuar o download do arquivo *locks.txt* basta usar o seguinte comando **`get locks.txt`**
 
 ![ftp-anonymous-get-locks.txt](https://i.imgur.com/9NgiVa0.png)
 
@@ -65,7 +65,7 @@ O arquivo *locks.txt* parece ser uma wordlist. Agora vamos ler o outro arquivo, 
 
 ![ftp-anonymous-cat-task.txt](https://i.imgur.com/OhgVO1Q.png)
 
-O arquivo *task.txt* parece ser uma carta/mensagem e nela temos o remetente **lin**. Com essas informações podemos utilizar a ferramenta [Hydra](https://initone.com.br/HydraBruteForce/) para fazer um BruteForce no serviço SSH dessa maquina.
+O arquivo *task.txt* parece ser uma carta/mensagem e nela temos o remetente **lin**. Com essas informações podemos utilizar a ferramenta [Hydra](https://initone.com.br/HydraBruteForce/) para fazer um BruteForce no serviço SSH dessa máquina.
 Para utilizarmos o Hydra para fazer BruteForce no serviço SSH utilizamos o comando **`hydra -l lin -P locks.txt 10.10.124.175 ssh`** 
 
 ![hydra-bruteforce](https://i.imgur.com/Lg4kxgS.png)
@@ -74,11 +74,11 @@ Perfeito! Encontramos o usuário e a senha do SSH! Agora é só fazer o login. P
 
 ![ssh-login](https://i.imgur.com/yExFBaZ.png)
 
-Nessa parte ele está pedindo a sua permissão para se conectar no SSH da maquina, basta você responder com *yes* para se conectar. Logo em seguida ele estára pedindo a *password* do serviço SSH, que é a mesma *password* que o Hydra encontrou utilizando o método de BruteForce no serviço SSH.
+Nessa parte ele está pedindo a sua permissão para se conectar no SSH da máquina, basta você responder com *yes* para se conectar. Logo em seguida ele estára pedindo a *password* do serviço SSH, que é a mesma *password* que o Hydra encontrou utilizando o método de BruteForce no serviço SSH.
 
 ![ssh-login-password-correct](https://i.imgur.com/Z74kPkK.png)
 
-Parabéns! Agora você dentro do serviço SSH dessa maquina!
+Parabéns! Agora você dentro do serviço SSH dessa máquina!
 
 ## Escalando privilégios
 
