@@ -74,7 +74,7 @@ Perfeito! Encontramos o usuário e a senha do SSH! Agora é só fazer o login. P
 
 ![ssh-login](https://i.imgur.com/yExFBaZ.png)
 
-Nessa parte ele está pedindo a sua permissão para se conectar no SSH da máquina, basta você responder com *yes* para se conectar. Logo em seguida ele estára pedindo a *password* do serviço SSH, que é a mesma *password* que o Hydra encontrou utilizando o método de BruteForce no serviço SSH.
+Nessa parte ele está pedindo a sua permissão para se conectar no SSH da máquina, basta você responder com *yes* para se conectar. Logo em seguida ele estará pedindo a *password* do serviço SSH, que é a mesma *password* que o Hydra encontrou utilizando o método de BruteForce no serviço SSH.
 
 ![ssh-login-password-correct](https://i.imgur.com/Z74kPkK.png)
 
