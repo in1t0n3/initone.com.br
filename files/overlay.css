@@ -196,8 +196,11 @@ h6::before {
 }
 
 /* controlando o tamanho maximo da primeira img do post */
-#conteudo img:first-of-type {
-    max-width: calc(100% + 5rem);
+
+@media (min-width:992px) {
+    #conteudo img:first-of-type {
+        max-width: calc(100% + 5rem);
+    }
 }
 
 #conteudo-box{
