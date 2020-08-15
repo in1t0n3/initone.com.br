@@ -17,8 +17,7 @@ Ao executar o binário, ele nos pede um shellcode.
 
 Pensei em colocar qualquer coisa no input para ver como que o binário iria se comportar e, de acordo com a resposta, esse programa tenta executar o que for colocado no input.
 
-Analisando o código-fonte eu percebi que essa hipótese estava certa, já que o valor recebido é passado na variável **`buf`** em  
-**`((void (*)())buf)();`** e assim é executado.
+Analisando o código-fonte eu percebi que essa hipótese estava certa, já que o valor recebido é passado na variável **`buf`** em **`((void (*)())buf)();`** e assim é executado.
 
 ![Codigo-Fonte](https://i.imgur.com/aOcmgtz.png)
 
