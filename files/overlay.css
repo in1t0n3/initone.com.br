@@ -194,7 +194,16 @@ h6::before {
     margin-bottom: 4rem;
 }
 
+/* controlando o tamanho maximo da primeira img do post */
+#conteudo > img:first-child {
+    max-width: calc(100% + 5rem);
+}
+
 /* ------------------------------------- */
+
+#tabelaDeConteudo-box-coluna {
+    z-index: -1;
+}
 
 #tabelaDeConteudo-lista {
     font-size: .875rem;
