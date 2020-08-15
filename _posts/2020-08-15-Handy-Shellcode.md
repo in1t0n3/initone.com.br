@@ -40,7 +40,7 @@ Esse script vai gerar um shellcode que "spawna" a shell **/bin/sh** e o escrever
 Outra forma de resolver o desafio (e a mais divertida) é escrever seu próprio shellcode.  
 Nesse shellcode, eu utilizei a syscall ***execve*** para "spawnar" a shell e a syscall ***exit*** para terminar a execução do programa assim que fechar a shell.
 
-![Assembly](https://i.imgur.com/0s2Gbet.png)
+![Assembly](https://i.imgur.com/TnXTocj.png)
 
 O codigo em Assembly "gera" o seguinte shellcode:
 
