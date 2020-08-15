@@ -37,7 +37,7 @@ Podemos perceber que pela a saído no nmap temos os seguintes serviços:
 - SSH
 - HTTP
 
-Podemos analisar o FTP dessa máquina, existe vários métodos diferentes que você pode acessar um serviço de FTP, nessa situação estarei acessando o FTP da máquina pelo o meu terminal. Para isso acontecer estarei usando o comando **`ftp 10.10.124.175`**
+Podemos analisar o FTP dessa máquina, existem vários métodos diferentes que você pode acessar um serviço de FTP, nessa situação estarei acessando o FTP da máquina pelo o meu terminal. Para isso acontecer estarei usando o comando **`ftp 10.10.124.175`**
 
 ![ftp](https://i.imgur.com/oMxegzT.png)
 
