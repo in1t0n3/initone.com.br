@@ -56,4 +56,4 @@ Escrevendo ele em um arquivo foi como feito com o pwntools, é possível "spawna
 Para executar o payload e conseguir interagir com a shell é necessário manter o fluxo no stdin  
 e para isso é preciso executar **`(cat payload1; cat) | ./vuln`**.
 
-<img src="https://i.imgur.com/2YeiRrq.png" alt="flag" width="931" height="157">
+<img src="https://i.imgur.com/Kj0Pu7w.png" alt="flag" width="931" height="157">
