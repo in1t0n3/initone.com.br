@@ -3,14 +3,14 @@ layout: post
 title: Hydra Brute Force
 author: 'Antony Leite'
 date: 2020-07-22 12:00:00 -0300
-lide: Hydra. Uma ferramenta de cracker de login rápida, estável e eficiente que descobre senhas através do método de Brute Force utilizando dicionários(wordlists), nesse poste você ira ter uma breve introdução a essa excelente ferramenta.
+lide: Hydra. Uma ferramenta de cracker de login rápida, estável e eficiente que descobre senhas através do método de Brute Force utilizando dicionários(wordlists), nesse post você irá ter uma breve introdução a essa excelente ferramenta.
 ---
 
 ## Hydra Brute Force.
 
-Basicamente o Hydra utiliza o método de brute force (tentativa e erro) para descobrir senhas. Ela faz uso de dicionários que contem diversas variedades e combinações de senhas e de logins. Essa ferramenta tem suporte para diversos protocolos, tais como FTP, SMB, SSH, MySQL, formulários web entre outros. Nesse breve introdução, vamos abordar o uso do Hydra nos serviços de FTP, SMB e SSH e formulário web.
+Basicamente o Hydra utiliza o método de brute force (tentativa e erro) para descobrir senhas. Ela faz uso de dicionários que contém diversas variedades e combinações de senhas e de logins. Essa ferramenta tem suporte para diversos protocolos, tais como FTP, SMB, SSH, MySQL, formulários web entre outros. Nesse breve introdução, vamos abordar o uso do Hydra nos serviços de FTP, SMB e SSH e formulário web.
 
-Lembrando que você pode rodar o comando **`$ hydra -h`** que você ira ver a opção de ajuda do Hydra.
+Lembrando que você pode rodar o comando **`$ hydra -h`** que você irá ver a opção de ajuda do Hydra.
 
 ## Hydra FTP
 
@@ -42,7 +42,7 @@ Ou
     </tr>
     <tr>
       <td>-p</td>
-      <td>Setar uma unica senha</td>
+      <td>Setar uma única senha</td>
     </tr>
     <tr>
       <td>-P</td>
@@ -116,7 +116,7 @@ Para usar o Hydra no serviço de SSH basta seguir a sintaxe abaixo:
 
 ## Hydra Formulários Web
 
-Podemos usar o Hydra para Brute Force em formulários web, porém você terá  que saber qual tipo de solicitação que o site esta fazendo, se é o método GET ou POST. Para você saber qual método o site está solicitando você pode fazer uso das ferramentas de desenvolvedor do seu navegador.
+Podemos usar o Hydra para Brute Force em formulários web, porém você terá  que saber qual tipo de solicitação que o site está fazendo, se é o método GET ou POST. Para você saber qual método o site está solicitando você pode fazer uso das ferramentas de desenvolvedor do seu navegador.
 
 Você pode usar o seguinte comando para o método POST:
 
