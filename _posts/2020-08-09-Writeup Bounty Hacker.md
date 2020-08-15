@@ -95,7 +95,7 @@ Você pesquisando sobre [tar](https://gtfobins.github.io/gtfobins/tar/) no GTFOB
 
 ![root](https://i.imgur.com/63jLuG3.png)
 
-Pronto! Você se tornou root! Agora basta ler a *flag* que se encontra em */root/root.txt*, para ler a *flag* root sem sair do seu diretório atual basta user o comando **`cat /root/root.txt`**
+Pronto! Você se tornou root! Agora basta ler a *flag* que se encontra em */root/root.txt*, para fazer isso basta usar o comando **`cat /root/root.txt`**
 
 ![root.txt](https://i.imgur.com/OuDTlnW.png)
 
