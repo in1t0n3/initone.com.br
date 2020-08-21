@@ -70,7 +70,7 @@ const perfilDatas = {
             },
             {
                 id: 'id_hackthebox',
-                link: 'https://www.hackthebox.eu/home/users/profile/332410'
+                link: 'https://www.hackthebox.eu/profile/332410'
             }
         ],
         skil: ['no futuro eu vejo isso']
