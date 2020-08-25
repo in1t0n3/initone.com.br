@@ -11,4 +11,4 @@ Nós temos como projeto sempre trazer para você, meu caro leitor, um conteúdo 
 
 ## Quem somos
 
-Logo abaixo você pode ver quem são os integrantes atuais da equipe e saber um pouquinho mais sobre eles. Porém, de forma resumida, somos um time como o objetivo de aprender e ensinar sobre os fundamentos da segurança da informação, buscando agregar o cenário do <abbr title="Capture The Flag">CTF</abbr> brasileiro. Tanto é que formamos um time de <abbr title="Capture The Flag">CTF</abbr>.
+Logo abaixo você pode ver quem são os integrantes atuais da equipe e saber um pouquinho mais sobre eles. Porém, de forma resumida, somos um time como o objetivo de aprender e ensinar sobre os fundamentos da segurança da informação, buscando agregar o cenário do <abbr title="Capture The Flag">CTF</abbr> brasileiro.
