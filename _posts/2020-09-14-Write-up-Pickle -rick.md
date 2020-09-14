@@ -3,7 +3,7 @@ layout: post
 título: Pickle Rick pt-BR
 autor: 'Alisson Chataubriand'
 data: 2020-09-15 18:00:00 -0300
-lide: Write-up pt-BR da sala Piclke Rick do TryHackMe, voltado para a lógica do desafio.
+lide: Esse post, trás uma write-up/guia da máquina piclke rick do TryHackMe, voltado para a logica de como fiz o CTF.
 ---
 
 # Pickle Rick
