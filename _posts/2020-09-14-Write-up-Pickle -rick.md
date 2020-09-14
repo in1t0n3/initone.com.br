@@ -42,4 +42,4 @@ Explorando os diretórios podemos encontrar a flag 2 no diretório do rick, (nó
 
 ![flag3](https://i.imgur.com/CFgjFcZ.png)
 
-Para a ultima flag temos um pequeno problema, a primeira vista o diretório /root está vazio, mesmo executando **ls -lha**, então temos que usar novamente o comando **sudo** ao nosso favor, e com isso pegar a 3 e ultima flag
+Para a ultima flag temos um pequeno problema, a primeira vista o diretório /root está vazio, mesmo executando **ls -lha**, então temos que usar novamente o comando **sudo** ao nosso favor, e com isso pegar a 3 e a ultima flag
