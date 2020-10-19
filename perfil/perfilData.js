@@ -95,7 +95,7 @@ const perfilDatas = {
     },
     ni_Guilherme_Louren_o: {
         autor: 'Guilherme Lourenço',
-        img: '/perfil/guilherme_louren_o_foto.jpg',
+        img: '/perfil/guilherme_foto_perfil.jpg',
         bio: 'Estudante de Defesa Cibernética pela FIAP, entusiasta de forense digital, apaixonado por red team e profissional na área de blue team.',
         social: [{
                 id: 'id_linkedin',
