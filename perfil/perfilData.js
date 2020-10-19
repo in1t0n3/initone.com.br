@@ -98,16 +98,16 @@ const perfilDatas = {
         img: '/perfil/guilherme_louren_o_foto.jpg',
         bio: 'Estudante de Defesa Cibernética pela FIAP, entusiasta de forense digital, apaixonado por red team e profissional na área de blue team.',
         social: [{
+                id: 'id_linkedin',
+                link: 'https://www.linkedin.com/in/guilherme-l-957a0999/'
+            },
+            {
                 id: 'id_gitHub',
                 link: 'https://github.com/guilhermelourenc'
             },
             {
                 id: 'id_tryhackme',
                 link: 'https://tryhackme.com/p/mwtt4'
-            },
-            {
-                id: 'id_linkedin',
-                link: 'https://www.linkedin.com/in/guilherme-l-957a0999/'
             }
         ],
         skil: ['no futuro eu vejo isso']
@@ -115,7 +115,7 @@ const perfilDatas = {
     ni_Felipe_Brasileiro: {
         autor: 'Felipe Brasileiro',
         img: '/perfil/felipe_brasileiro.jpeg',
-        bio: 'Estudante de Engenharia da Computação, apaixonado por segurança ofensiva, especialmente por exploração de binários.',
+        bio: 'Estudante de Engenharia da Computação, apaixonado por red team, hardware e programação low level.',
         social: [{
                 id: 'id_linkedin',
                 link: 'https://www.linkedin.com/in/felipe-brasileiro-668b17167/'
