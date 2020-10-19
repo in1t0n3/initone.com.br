@@ -58,8 +58,8 @@ const perfilDatas = {
         img: '/perfil/antony_foto.gif',
         bio: 'Amante de segurança da informação voltada para RedTeam, novato em programação e estudante de eletrônica.',
         social: [{
-                id: 'id_instagram',
-                link: 'https://instagram.com/antony_msl'
+                id: 'id_linkedin',
+                link: 'https://www.linkedin.com/in/antonyleite/'
             }, {
                 id: 'id_gitHub',
                 link: 'https://github.com/g4l1t0'
