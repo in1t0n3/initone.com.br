@@ -80,8 +80,8 @@ const perfilDatas = {
         img: '/perfil/alisson_foto.png',
         bio: 'Iniciante na área de tecnologia da informação, aficionado em Pentest e em segurança da informação, entusiasta de programação e aluno de eletronica.',
         social: [{
-                id: 'id_instagram',
-                link: 'https://instagram.com/chatau.briand'
+                id: 'id_linkedin',
+                link: 'https://www.linkedin.com/in/alisson-chataubriand-araujo-de-almeida-9884911b6'
             }, {
                 id: 'id_gitHub',
                 link: 'https://github.com/SrAl1ss0n'
@@ -117,8 +117,8 @@ const perfilDatas = {
         img: '/perfil/felipe_brasileiro.jpeg',
         bio: 'Estudante de Engenharia da Computação, apaixonado por segurança ofensiva, especialmente por exploração de binários.',
         social: [{
-                id: 'id_instagram',
-                link: 'https://www.instagram.com/felipe_brasileiro/'
+                id: 'id_linkedin',
+                link: 'https://www.linkedin.com/in/felipe-brasileiro-668b17167/'
             }, {
                 id: 'id_gitHub',
                 link: 'https://github.com/FBrasileiro'
