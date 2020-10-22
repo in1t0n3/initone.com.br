@@ -129,6 +129,24 @@ const perfilDatas = {
             },
         ],
         skil: ['no futuro eu vejo isso']
+    },
+        ni_Lucas_Vin_cius: {
+        autor: 'Lucas Vinícius',
+        img: '/perfil/lucas_vinicius.jpg',
+        bio: 'Formado em Sistemas de Informação e estudante de segurança ofensiva.',
+        social: [{
+                id: 'id_linkedin',
+                link: 'https://www.linkedin.com/in/1LucasVinicius/'
+            }, {
+                id: 'id_gitHub',
+                link: 'https://github.com/1LucasVinicius'
+            },
+            {
+                id: 'id_tryhackme',
+                link: 'https://tryhackme.com/p/LucasMorais'
+            },
+        ],
+        skil: ['no futuro eu vejo isso']
     }
 }
 
