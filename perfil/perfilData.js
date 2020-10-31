@@ -48,7 +48,7 @@ observação 2: redes sociais
 
 */
 
-const perfilDataLista = ['ni_Antony_Leite', 'ni_Alisson_Chataubriand', 'ni_Guilherme_Louren_o', 'ni_Felipe_Brasileiro', 'ni_Lucas_Vin_cius']
+const perfilDataLista = ['ni_Antony_Leite', 'ni_Guilherme_Louren_o', 'ni_Felipe_Brasileiro', 'ni_Lucas_Vin_cius']
 
 const perfilDataConvidados = []
 
