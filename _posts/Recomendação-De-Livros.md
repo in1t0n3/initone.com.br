@@ -1,9 +1,9 @@
 ---
-layout: post
-title: "Recomendações de livros"
-author: 'Alisson Chataubriand'
-date: 2020-07-22 13:11:00 -0300
-lide: "Alguns livros que eu estou lendo e que gostaria de compartilhar!"
+>layout: post
+>title: "Recomendações de livros"
+>author: 'Alisson Chataubriand'
+>date: 2020-07-22 13:11:00 -0300
+>lide: "Alguns livros que eu estou lendo e que gostaria de compartilhar!"
 ---
 Olá caro leitor, que provavelmente é um iniciante nessa área de pentest assim como eu, venho compartilhar alguns poucos
 livros que eu tenho lido sobre esse assunto que é a segurança da informação, trago-lhes uma pequena lista 
