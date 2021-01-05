@@ -1,9 +1,9 @@
 ---
-layout: post
-title: Pickle Rick pt-BR
-author: 'Alisson Chataubriand'
-data: 2020-09-24 08:00:00 -0300
-lide: Este Write-up é um guia em pt-BR da sala Piclke Rick do TryHackMe é voltado para a lógica do desafio e de como eu especificamente fiz ela.
+>layout: post
+>title: Pickle Rick pt-BR
+>author: 'Alisson Chataubriand'
+>data: 2020-09-24 08:00:00 -0300
+>lide: Este Write-up é um guia em pt-BR da sala Piclke Rick do TryHackMe é voltado para a lógica do desafio e de como eu especificamente fiz ela.
 ---
 
 ## Pickle Rick:
